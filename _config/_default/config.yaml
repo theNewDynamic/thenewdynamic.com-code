@@ -5,9 +5,6 @@ baseURL: 'https://www.thenewdynamic.com'
 enableRobotsTXT: true
 googleAnalytics: ''
 languageCode: en-us
-themesDir: components
-theme:
-  - hugo-layout_module-base-2019
 preserveTaxonomyNames: true
 disableAliases: true
 blackfriday:
@@ -38,7 +35,6 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
-social: {}
 taxonomies:
   tag: tags
 
