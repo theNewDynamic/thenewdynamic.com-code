@@ -1,0 +1,9 @@
+main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 1
+  - identifier: article
+    name: Updates
+    url: /article/
+    weight: 60

@@ -1,0 +1,15 @@
+@tailwind preflight;
+@tailwind components;
+
+.class-name {
+  @apply bg-red;
+}
+
+/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED. If using in a module, you need to include the tags in that module directly (I think!).
+https://www.purgecss.com/whitelisting#in-the-css-directly */
+
+/* purgecss start ignore */
+
+/* purgecss end ignore */
+
+@tailwind utilities; 

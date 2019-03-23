@@ -1,0 +1,7 @@
+DirectoryPath: "public"
+EnforceHTTPS: true
+IgnoreURLs:
+- "example.com"
+IgnoreDirs:
+- "lib"
+CacheExpires: "6h"
