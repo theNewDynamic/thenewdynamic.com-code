@@ -1,3 +1,11 @@
 {{ define "main" }}
-  Hello World LIST
+list
+  {{- partial "_components/page-heading.html" . -}}
+  <section>    
+    {{ range .Paginator.Pages }}
+      {{- partial "summary.html" . -}}
+    {{ end }}    
+  </section>
+
+{{- template "_internal/pagination.html" . -}}
 {{ end }}
